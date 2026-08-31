@@ -1,0 +1,43 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+venv/
+env/
+.venv/
+*.env
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# --- Google Colab ---
+.config/
+drive/
+
+# --- VS Code ---
+.vscode/
+*.code-workspace
+
+# --- Data (large raw files — see data/README.md for download instructions) ---
+data/*.csv
+!data/README.md
+
+# --- CatBoost training artifacts ---
+catboost_info/
+
+# --- OS / misc ---
+.DS_Store
+Thumbs.db
+*.log
+
+# --- Model artifacts (regenerate via the notebook rather than committing binaries) ---
+*.pkl
+*.sav
+*.joblib
